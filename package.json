@@ -2,13 +2,13 @@
   "name": "mongoose-super-increment",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hariaakash/Mongoose-Super-Increment.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Hari Narayanan",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hariaakash/Mongoose-Super-Increment/issues"
   },

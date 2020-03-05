@@ -74,34 +74,19 @@ bookSchema.plugin(mongooseSuperIncrement.plugin, {
 
 Your first book document would have a `bookId` equal to `100`. Your second book document would have a `bookId` equal to `200`, and so on.
 
-### Want to reset counter back to the start value?
+### Want to use suffix or prefix?
 
 ````js
 bookSchema.plugin(mongooseSuperIncrement.plugin, {
     model: 'Book',
     field: 'bookId',
-    startAt: 100
-});
-
-var Book = connection.model('Book', bookSchema),
-    book = new Book();
-
-book.save(function (err) {
-
-    // book._id === 100 -> true
-
-    book.nextCount(function(err, count) {
-
-        // count === 101 -> true
-
-        book.resetCount(function(err, nextCount) {
-
-            // nextCount === 100 -> true
-
-        });
-
-    });
-
+    startAt: 100,
+    incrementBy: 100,
+    prefix: 'Book-',
+    suffix: (doc) => {
+        // Process the doc being which is being saved.
+        return 'Book-';
+    },
 });
 ````
 
