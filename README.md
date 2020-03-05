@@ -4,8 +4,8 @@
 [![Dependency Status](https://david-dm.org/hariaakash/mongoose-super-increment.svg)](https://david-dm.org/hariaakash/mongoose-super-increment)
 [![devDependency Status](https://david-dm.org/hariaakash/mongoose-super-increment/dev-status.svg)](https://david-dm.org/hariaakash/mongoose-super-increment#info=devDependencies)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/hariaakash/mongoose-super-increment/issues)
-[![Downloads](https://img.shields.io/npm/dm/mongoose-super-increment.svg)](https://img.shields.io/npm/dm/mongoose-super-increment.svg)
-[![HitCount](http://hits.dwyl.io/hariaakash/mongoose-super-increment.svg)](http://hits.dwyl.io/hariaakash/mongoose-super-increment)
+[![Downloads](https://img.shields.io/npm/dm/mongoose-super-increment.svg)](https://www.npmjs.com/package/mongoose)
+[![Github](https://img.shields.io/github/license/hariaakash/mongoose-super-increment.svg)](https://github.com/hariaakash/Mongoose-Super-Increment/blob/HEAD/LICENSE)
 
 > [Mongoose](http://mongoosejs.com) plugin that auto-increments any ID field on your schema every time a document is saved.
 
