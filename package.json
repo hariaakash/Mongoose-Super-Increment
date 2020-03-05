@@ -1,18 +1,18 @@
 {
-  "name": "mongoose-super-paginate",
+  "name": "mongoose-super-increment",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hariaakash/Mongoose-Super-Paginate.git"
+    "url": "git+https://github.com/hariaakash/Mongoose-Super-Increment.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hariaakash/Mongoose-Super-Paginate/issues"
+    "url": "https://github.com/hariaakash/Mongoose-Super-Increment/issues"
   },
-  "homepage": "https://github.com/hariaakash/Mongoose-Super-Paginate#readme",
+  "homepage": "https://github.com/hariaakash/Mongoose-Super-Increment#readme",
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
