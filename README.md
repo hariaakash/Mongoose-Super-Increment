@@ -35,7 +35,9 @@ Initialize Mongoose Super Increment and add plugin to a schema.
 const mongoose         = require('mongoose');
 const mongooseSuperIncrement = require('mongoose-super-increment');
 
-mongooseSuperIncrement.initialize();
+const connection = mongoose.connect();
+
+mongooseSuperIncrement.initialize(connection);
 
 const bookSchema = new Schema({
     author: { type: Schema.Types.ObjectId, ref: 'Author' },
@@ -90,7 +92,17 @@ bookSchema.plugin(mongooseSuperIncrement.plugin, {
 });
 ````
 
-## Options
+## Initialize
+
+```js
+MongooseSuperIncrement.initialize([connection]);
+```
+
+**Parameters**
+
+* `[connection]`           {Object} Mongoose Connection (required)
+
+## Plugin
 
 ```js
 Model.plugin(MongooseSuperIncrement.plugin, [options]);
