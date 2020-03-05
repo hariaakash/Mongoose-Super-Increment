@@ -12,5 +12,10 @@
   "bugs": {
     "url": "https://github.com/hariaakash/Mongoose-Super-Paginate/issues"
   },
-  "homepage": "https://github.com/hariaakash/Mongoose-Super-Paginate#readme"
+  "homepage": "https://github.com/hariaakash/Mongoose-Super-Paginate#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
 }
