@@ -1,6 +1,6 @@
 {
   "name": "mongoose-super-increment",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Mongoose plugin that auto-increment any field on your schema that you wish. Also supports suffix & prefix.",
   "main": "lib/index.js",
   "repository": {
