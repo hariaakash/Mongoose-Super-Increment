@@ -16,7 +16,7 @@
 
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [Options](#options)
+3. [API](#api)
 4. [License](#license)
 
 ## Installation
@@ -92,7 +92,9 @@ bookSchema.plugin(mongooseSuperIncrement.plugin, {
 });
 ````
 
-## Initialize
+## API
+
+### Initialize
 
 ```js
 MongooseSuperIncrement.initialize([connection]);
@@ -102,7 +104,7 @@ MongooseSuperIncrement.initialize([connection]);
 
 * `[connection]`           {Object} Mongoose Connection (required)
 
-## Plugin
+### Plugin
 
 ```js
 Model.plugin(MongooseSuperIncrement.plugin, [options]);
@@ -118,6 +120,6 @@ Model.plugin(MongooseSuperIncrement.plugin, [options]);
     - `prefix`          {String/Function} Counter Prefix (optional, default value is an empty string)
     - `suffix`          {String/Function} Counter Suffix (optional, default value is an empty string)
 
-## License
+### License
 
 [MIT](LICENSE)
